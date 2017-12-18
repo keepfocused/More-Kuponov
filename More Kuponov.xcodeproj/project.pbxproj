@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8321F0E31FE41B93007C02F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8321F0E21FE41B93007C02F0 /* AppDelegate.swift */; };
+		8321F0E51FE41B93007C02F0 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8321F0E41FE41B93007C02F0 /* MasterViewController.swift */; };
+		8321F0E71FE41B93007C02F0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8321F0E61FE41B93007C02F0 /* DetailViewController.swift */; };
+		8321F0EA1FE41B93007C02F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8321F0E81FE41B93007C02F0 /* Main.storyboard */; };
+		8321F0EC1FE41B93007C02F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8321F0EB1FE41B93007C02F0 /* Assets.xcassets */; };
+		8321F0EF1FE41B93007C02F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8321F0ED1FE41B93007C02F0 /* LaunchScreen.storyboard */; };
+		8321F0F71FE423A6007C02F0 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8321F0F61FE423A6007C02F0 /* ServerManager.swift */; };
+		B073E43DDFB6436F503CE950 /* Pods_More_Kuponov.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861EA0D6D78BC890E77C7203 /* Pods_More_Kuponov.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19CE79339E36B4AB8AB9AC51 /* Pods-More Kuponov.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-More Kuponov.debug.xcconfig"; path = "Pods/Target Support Files/Pods-More Kuponov/Pods-More Kuponov.debug.xcconfig"; sourceTree = "<group>"; };
+		5D115DC000E69ADF04229054 /* Pods-More Kuponov.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-More Kuponov.release.xcconfig"; path = "Pods/Target Support Files/Pods-More Kuponov/Pods-More Kuponov.release.xcconfig"; sourceTree = "<group>"; };
+		8321F0DF1FE41B93007C02F0 /* More Kuponov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "More Kuponov.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8321F0E21FE41B93007C02F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8321F0E41FE41B93007C02F0 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		8321F0E61FE41B93007C02F0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8321F0E91FE41B93007C02F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8321F0EB1FE41B93007C02F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8321F0EE1FE41B93007C02F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8321F0F01FE41B93007C02F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8321F0F61FE423A6007C02F0 /* ServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServerManager.swift; path = ../ServerManager.swift; sourceTree = "<group>"; };
+		861EA0D6D78BC890E77C7203 /* Pods_More_Kuponov.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_More_Kuponov.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8321F0DC1FE41B93007C02F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B073E43DDFB6436F503CE950 /* Pods_More_Kuponov.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8321F0D61FE41B93007C02F0 = {
+			isa = PBXGroup;
+			children = (
+				8321F0E11FE41B93007C02F0 /* More Kuponov */,
+				8321F0E01FE41B93007C02F0 /* Products */,
+				E4E535FCA1D2E016D4685D34 /* Pods */,
+				D2EF21DE0A3AE21AFC02EDA2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8321F0E01FE41B93007C02F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8321F0DF1FE41B93007C02F0 /* More Kuponov.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8321F0E11FE41B93007C02F0 /* More Kuponov */ = {
+			isa = PBXGroup;
+			children = (
+				8321F0F61FE423A6007C02F0 /* ServerManager.swift */,
+				8321F0E21FE41B93007C02F0 /* AppDelegate.swift */,
+				8321F0E41FE41B93007C02F0 /* MasterViewController.swift */,
+				8321F0E61FE41B93007C02F0 /* DetailViewController.swift */,
+				8321F0E81FE41B93007C02F0 /* Main.storyboard */,
+				8321F0EB1FE41B93007C02F0 /* Assets.xcassets */,
+				8321F0ED1FE41B93007C02F0 /* LaunchScreen.storyboard */,
+				8321F0F01FE41B93007C02F0 /* Info.plist */,
+			);
+			path = "More Kuponov";
+			sourceTree = "<group>";
+		};
+		D2EF21DE0A3AE21AFC02EDA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				861EA0D6D78BC890E77C7203 /* Pods_More_Kuponov.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4E535FCA1D2E016D4685D34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19CE79339E36B4AB8AB9AC51 /* Pods-More Kuponov.debug.xcconfig */,
+				5D115DC000E69ADF04229054 /* Pods-More Kuponov.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8321F0DE1FE41B93007C02F0 /* More Kuponov */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8321F0F31FE41B93007C02F0 /* Build configuration list for PBXNativeTarget "More Kuponov" */;
+			buildPhases = (
+				7A9650144439152248AAD7D4 /* [CP] Check Pods Manifest.lock */,
+				8321F0DB1FE41B93007C02F0 /* Sources */,
+				8321F0DC1FE41B93007C02F0 /* Frameworks */,
+				8321F0DD1FE41B93007C02F0 /* Resources */,
+				05E3A70CA5C795645E94F3B3 /* [CP] Embed Pods Frameworks */,
+				97DC5ADE13C6915EA889EF4C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "More Kuponov";
+			productName = "More Kuponov";
+			productReference = 8321F0DF1FE41B93007C02F0 /* More Kuponov.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8321F0D71FE41B93007C02F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MoreKuponov;
+				TargetAttributes = {
+					8321F0DE1FE41B93007C02F0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = NT3Q29257K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8321F0DA1FE41B93007C02F0 /* Build configuration list for PBXProject "More Kuponov" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8321F0D61FE41B93007C02F0;
+			productRefGroup = 8321F0E01FE41B93007C02F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8321F0DE1FE41B93007C02F0 /* More Kuponov */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8321F0DD1FE41B93007C02F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8321F0EF1FE41B93007C02F0 /* LaunchScreen.storyboard in Resources */,
+				8321F0EC1FE41B93007C02F0 /* Assets.xcassets in Resources */,
+				8321F0EA1FE41B93007C02F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05E3A70CA5C795645E94F3B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-More Kuponov/Pods-More Kuponov-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-More Kuponov/Pods-More Kuponov-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A9650144439152248AAD7D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-More Kuponov-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97DC5ADE13C6915EA889EF4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-More Kuponov/Pods-More Kuponov-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8321F0DB1FE41B93007C02F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8321F0F71FE423A6007C02F0 /* ServerManager.swift in Sources */,
+				8321F0E71FE41B93007C02F0 /* DetailViewController.swift in Sources */,
+				8321F0E51FE41B93007C02F0 /* MasterViewController.swift in Sources */,
+				8321F0E31FE41B93007C02F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8321F0E81FE41B93007C02F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8321F0E91FE41B93007C02F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8321F0ED1FE41B93007C02F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8321F0EE1FE41B93007C02F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8321F0F11FE41B93007C02F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8321F0F21FE41B93007C02F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8321F0F41FE41B93007C02F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CE79339E36B4AB8AB9AC51 /* Pods-More Kuponov.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NT3Q29257K;
+				INFOPLIST_FILE = "More Kuponov/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.morekuponov.More-Kuponov";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8321F0F51FE41B93007C02F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D115DC000E69ADF04229054 /* Pods-More Kuponov.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NT3Q29257K;
+				INFOPLIST_FILE = "More Kuponov/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.morekuponov.More-Kuponov";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8321F0DA1FE41B93007C02F0 /* Build configuration list for PBXProject "More Kuponov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8321F0F11FE41B93007C02F0 /* Debug */,
+				8321F0F21FE41B93007C02F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8321F0F31FE41B93007C02F0 /* Build configuration list for PBXNativeTarget "More Kuponov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8321F0F41FE41B93007C02F0 /* Debug */,
+				8321F0F51FE41B93007C02F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8321F0D71FE41B93007C02F0 /* Project object */;
+}
